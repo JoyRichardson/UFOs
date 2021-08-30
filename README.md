@@ -6,17 +6,32 @@ Dana only has a Javascript file filled with sighting information in many countri
 ## Resources
 Software(s): HTML, CSS, Chrome Developer Tools, Bootstrap 3.3.3, and Visual Studio Code 1.57.1
 ## Results
-Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
+We have included the steps and related images to describe the process of using the search criteria.<br/>
 
-![](Webpage1.PNG)<br/>
+1)  When users open the webpage, they will see an introduction and sightings contained in a table that allows them to filter the table for their search criteria:<br/>
 
-![](Webpage2.PNG)<br/>
+![](static/images/Webpage1.PNG)<br/>
 
-![](Webpage3.PNG)<br/>
+2)  The user can enter their search criteria in one or more fields that are prefilled with placeholders to show the format of the input.  The following image has only one (date) filter.<br/> 
+
+![](static/images/Webpage2.PNG)<br/>
+
+  The image below shows multiple filters.<br/>
+
+![](static/images/Webpage3.PNG)<br/>
+
+3)  The user must click on the title "UFO Sightings" in the upper left hand corner to refresh or reset the table.
 
 ## Summary
-Describe one drawback of this new design and two recommendations for further development.
 
-![](Webpage4.PNG)<br/>
+We noticed one drawback as we were testing your website:  There are no parameters to inform a user of the limitation of the data or that they have queried for something that is not included, such as a date or state.
 
-![](Webpage5.PNG)<br/>
+Following are two recommendations for further development:
+
+1) One recommendation for future development would be change the input fields to dropdown fields in answer to our mentioned drawback above.
+
+2) Another recommendation for future development would be to add one or more buttons to clearly direct the user how to interact with the data.  Below is a sample of code that could be inserted into the index.html file:
+
+  ```<button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>```<br/>
+  ```<button id="reset-btn" type="button" class="btn btn-default">```
+
