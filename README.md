@@ -4,7 +4,7 @@ Dana is a Data Journalist who wants to write about McMinnville, Oregon, which is
 ## Purpose
 Dana only has a Javascript file filled with sighting information in many countries, cities, and states.  She wants to create a HTML page that includes her article, a table with filters which allows searching and displaying the sightings information. She knows that she can use Javascript to manipulate the data so readers can easily use her website.  
 ## Resources
-Software(s): HTML, CSS, Chrome Developer Tools, Bootstrap 3.3.3, and Visual Studio Code 1.57.1
+Software(s): JavaScript, HTML, CSS, Chrome Developer Tools, Bootstrap 3.3.3, and Visual Studio Code 1.57.1
 ## Results
 We have included the steps and related images to describe the process of using the search criteria.<br/>
 
